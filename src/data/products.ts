@@ -1,0 +1,223 @@
+import { Product } from '../types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'aw-01',
+    name: 'Cyber Ballet Ribbed Corset Top',
+    price: 38,
+    originalPrice: 52,
+    category: 'Corsets & Tops',
+    description: 'Sculpted boned corset crafted from flexible micro-ribbed knit. Features curved ballet neckline, lace-up back eyelets, and asymmetric fairy hem.',
+    images: [
+      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80',
+    ],
+    tryOnImage: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80',
+    tags: ['TikTok Viral', 'Bespoke Ready', 'Best Seller'],
+    stockBySize: {
+      XS: 2,
+      S: 0, // SOLD OUT - triggers Iris custom sizing
+      M: 0, // SOLD OUT - triggers Iris custom sizing
+      L: 3,
+      XL: 0,
+      XXL: 1,
+    },
+    colors: [
+      { name: 'Onyx Black', hex: '#1C1917' },
+      { name: 'Petal Blossom', hex: '#FBCFE8' },
+      { name: 'Moonlit Pearl', hex: '#F3F4F6' },
+    ],
+    details: [
+      'Flexible internal structural boning that bends with movement',
+      'Dual adjustable satin corset lace-up closure',
+      'High recovery micro-rib with anti-slip silicone chest grip',
+      'Zero-pinch armhole contour',
+    ],
+    fabric: '88% Lenzing Viscose, 12% Spandex Elasticity',
+    care: 'Hand wash cold or delicate bag wash, lay flat to dry',
+    rating: 4.9,
+    reviewsCount: 384,
+  },
+  {
+    id: 'aw-02',
+    name: 'Starlight Utility Parachute Cargo Pants',
+    price: 64,
+    originalPrice: 85,
+    category: 'Cargos & Bottoms',
+    description: 'Ultra-lightweight technical parachute pants with bungee cinch ankles and custom waist drawstring. Never worry about waist gaping with our bespoke fit.',
+    images: [
+      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=900&q=80',
+    ],
+    tryOnImage: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80',
+    tags: ['Street Icon', 'Zero Waist Gap', 'Trending'],
+    stockBySize: {
+      XS: 1,
+      S: 0, // SOLD OUT
+      M: 0, // SOLD OUT
+      L: 2,
+      XL: 1,
+      XXL: 0,
+    },
+    colors: [
+      { name: 'Khaki Stone', hex: '#A8A29E' },
+      { name: 'Carbon Ink', hex: '#18181B' },
+      { name: 'Sage Moss', hex: '#A7F3D0' },
+    ],
+    details: [
+      'Double flap 3D cargo bellow pockets with gunmetal eyelets',
+      'Ankle toggle cord allows instant switch from balloon to straight fit',
+      'Contoured back lumbar darting engineered by Iris AI',
+      'Breathable matte nylon ripstop with water-resistant finish',
+    ],
+    fabric: '100% Recycled Matte Taslan Nylon',
+    care: 'Machine wash cool, tumble dry low, do not iron cords',
+    rating: 4.8,
+    reviewsCount: 512,
+  },
+  {
+    id: 'aw-03',
+    name: 'Cherry Bomb Babydoll Mini Dress',
+    price: 52,
+    originalPrice: 70,
+    category: 'Dresses',
+    description: 'Sweetheart puff sleeve mini dress in cherry jacquard. Dreamy empire waistline with smocked back panel designed to drape effortlessly on any silhouette.',
+    images: [
+      'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80',
+    ],
+    tryOnImage: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80',
+    tags: ['Romantic Core', 'Bespoke Hem Length', 'Viral'],
+    stockBySize: {
+      XS: 0,
+      S: 0, // SOLD OUT
+      M: 1,
+      L: 0, // SOLD OUT
+      XL: 2,
+      XXL: 1,
+    },
+    colors: [
+      { name: 'Ruby Cherry', hex: '#991B1B' },
+      { name: 'Vintage Noir', hex: '#0F172A' },
+      { name: 'Whipped Cream', hex: '#FEF3C7' },
+    ],
+    details: [
+      'Self-tie sweetheart bust with gathered keyhole detail',
+      'Elasticated ruffle puff shoulders (wear on or off shoulder)',
+      'Hidden side seam zipper with hook & eye safety clasp',
+      'Full inner cotton lining for zero opacity issues',
+    ],
+    fabric: 'Shell: 97% Poly Jacquard, 3% Elastane; Lining: 100% Rayon',
+    care: 'Dry clean recommended or gentle cold hand wash',
+    rating: 4.9,
+    reviewsCount: 290,
+  },
+  {
+    id: 'aw-04',
+    name: 'Moonlit Asymmetric Knit Shrug & Cami',
+    price: 44,
+    originalPrice: 58,
+    category: 'Knitwear',
+    description: 'Two-piece set featuring an ultra-cropped micro-bolero shrug and a contour-ribbed straight neck camisole. Modern, soft, and endlessly layerable.',
+    images: [
+      'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80',
+    ],
+    tryOnImage: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=900&q=80',
+    tags: ['Cozy Chic', '2-Piece Set', 'Staff Pick'],
+    stockBySize: {
+      XS: 3,
+      S: 0,
+      M: 2,
+      L: 0,
+      XL: 1,
+      XXL: 0,
+    },
+    colors: [
+      { name: 'Lilac Cloud', hex: '#DDD6FE' },
+      { name: 'Mocha Latte', hex: '#78350F' },
+      { name: 'Silver Mist', hex: '#E2E8F0' },
+    ],
+    details: [
+      'Extra-long knuckle-grazing sleeves with thumbhole cuts',
+      'Detachable camisole with adjustable spaghetti straps',
+      'Feather-light brushed mohair blend that never itches',
+    ],
+    fabric: '45% Viscose, 30% Polyamide, 25% Acrylic Yarn',
+    care: 'Cold water wash inside garment net bag, dry flat',
+    rating: 4.7,
+    reviewsCount: 178,
+  },
+  {
+    id: 'aw-05',
+    name: 'Cloud Puff Cropped Vegan Leather Bomber',
+    price: 88,
+    originalPrice: 120,
+    category: 'Outerwear',
+    description: 'Pillow-soft vintage distressed vegan leather jacket with padded dropped shoulders, heavy antique silver hardware, and ribbed hemline.',
+    images: [
+      'https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=900&q=80',
+    ],
+    tryOnImage: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=80',
+    tags: ['Iconic Drop', 'Heavyweight', 'Limited Edition'],
+    stockBySize: {
+      XS: 1,
+      S: 0, // SOLD OUT
+      M: 0, // SOLD OUT
+      L: 1,
+      XL: 0,
+      XXL: 2,
+    },
+    colors: [
+      { name: 'Vintage Espresso', hex: '#451A03' },
+      { name: 'Pitch Black', hex: '#09090B' },
+    ],
+    details: [
+      'Ultra supple water-resistant polyurethane shell with subtle vintage grain',
+      'Custom chunky double-ended 2-way zip closure',
+      'Interior satin diamond quilt lining for windproof warmth',
+      'Boxy drop-shoulder cut calibrated for custom torso ratios',
+    ],
+    fabric: '100% Polyurethane Leather, 100% Satin Polyester Lining',
+    care: 'Spot wipe with damp cloth, hang on broad hanger',
+    rating: 4.9,
+    reviewsCount: 421,
+  },
+  {
+    id: 'aw-06',
+    name: 'Y2K Pleated Low-Rise Micro Skort with Belt',
+    price: 42,
+    originalPrice: 55,
+    category: 'Cargos & Bottoms',
+    description: 'Viral pleated tennis-meets-streetwear skort with built-in stretch safety shorts and detachable grommet double-prong belt.',
+    images: [
+      'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=900&q=80',
+    ],
+    tryOnImage: 'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=900&q=80',
+    tags: ['Party Favorite', 'Built-in Shorts', 'Bespoke Waist'],
+    stockBySize: {
+      XS: 0,
+      S: 0, // SOLD OUT
+      M: 1,
+      L: 0,
+      XL: 2,
+      XXL: 1,
+    },
+    colors: [
+      { name: 'Charcoal Pinstripe', hex: '#334155' },
+      { name: 'Ballet Pink Plaid', hex: '#FBCFE8' },
+      { name: 'Raven Black', hex: '#18181B' },
+    ],
+    details: [
+      'Razor-sharp permanent knife pleats that do not wrinkle in transit',
+      'Ultra-soft inner modal spandex shorts with zero thigh ride-up',
+      'Removable metallic eyelet belt with heart-shaped buckle',
+    ],
+    fabric: '65% Poly, 32% Rayon, 3% Spandex Suiting Blend',
+    care: 'Cold hand wash or dry clean to maintain knife pleats',
+    rating: 4.8,
+    reviewsCount: 310,
+  },
+];

@@ -1,0 +1,6 @@
+{
+  "name": "aw-fit",
+  "description": "aw-fit - Trendy fast fashion online store with AI assistant Iris, body scan custom sizing, and virtual try-on.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
